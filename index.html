@@ -1,10 +1,138 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notícia - Educação Digital</title>
-    <link rel="stylesheet" href="style.css">
+
+    <title>Educação Digital | Colégio Frederico Guilherme Giese</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #eef4f8;
+            color: #222;
+            line-height: 1.7;
+        }
+
+        .pagina {
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px auto;
+        }
+
+        header {
+            background: linear-gradient(135deg, #075985, #0ea5e9);
+            color: white;
+            padding: 30px;
+            border-radius: 18px 18px 0 0;
+            text-align: center;
+        }
+
+        .colegio {
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        .disciplina {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .noticia {
+            background: white;
+            padding: 40px;
+            border-radius: 0 0 18px 18px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+        }
+
+        .data {
+            color: #0ea5e9;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: #075985;
+            font-size: 38px;
+            line-height: 1.2;
+            margin-bottom: 18px;
+        }
+
+        h2 {
+            color: #555;
+            font-size: 19px;
+            font-weight: normal;
+            margin-bottom: 30px;
+        }
+
+        .imagem-noticia {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+            border-radius: 14px;
+            display: block;
+            margin-bottom: 30px;
+        }
+
+        .texto {
+            font-size: 18px;
+            text-align: justify;
+            margin-bottom: 25px;
+        }
+
+        .autor {
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+            color: #555;
+            font-weight: bold;
+            text-align: right;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #777;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .pagina {
+                width: 95%;
+                margin: 20px auto;
+            }
+
+            .noticia {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 17px;
+            }
+
+            .texto {
+                font-size: 16px;
+            }
+
+            .imagem-noticia {
+                height: 250px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -12,21 +140,34 @@
     <main class="pagina">
 
         <header>
-            <p class="colegio">COLÉGIO FREDERICO GUILHERME GIESE</p>
-            <p class="disciplina">Educação Digital</p>
+            <p class="colegio">
+                COLÉGIO FREDERICO GUILHERME GIESE
+            </p>
+
+            <p class="disciplina">
+                💻 Educação Digital
+            </p>
         </header>
 
         <article class="noticia">
 
-            <p class="data">13 de agosto de 2026</p>
+            <p class="data">
+                13 de agosto de 2026
+            </p>
 
-            <h1>Educação Digital transforma a forma de aprender na escola</h1>
+            <h1>
+                Educação Digital transforma a forma de aprender na escola
+            </h1>
 
             <h2>
-                Tecnologia amplia as possibilidades de aprendizagem e aproxima os estudantes do mundo digital.
+                Tecnologia amplia as possibilidades de aprendizagem e aproxima
+                os estudantes do mundo digital.
             </h2>
 
-            <!-- Imagem ilustrativa da notícia -->
+            <!--
+                Coloque uma foto relacionada ao tema nesta pasta
+                com o nome: imagem-educacao-digital.jpg
+            -->
             <img
                 src="imagem-educacao-digital.jpg"
                 alt="Estudante utilizando computador durante uma atividade de educação digital"
@@ -34,24 +175,40 @@
             >
 
             <p class="texto">
-                A educação digital vem ganhando espaço no Colégio Frederico Guilherme Giese
-                e mostrando aos estudantes novas maneiras de aprender. Por meio de computadores,
-                pesquisas, ferramentas digitais e atividades interativas, os alunos podem
-                desenvolver criatividade, responsabilidade e conhecimento tecnológico. A
-                disciplina também ajuda a compreender como utilizar a internet de forma segura,
-                consciente e responsável. Durante as atividades, os estudantes são incentivados
-                a pesquisar informações, criar conteúdos e utilizar a tecnologia como uma
-                ferramenta para ampliar seus conhecimentos. Dessa forma, a educação digital
-                contribui para preparar os alunos para os desafios de um mundo cada vez mais
-                conectado.
+                A educação digital vem ganhando espaço no Colégio Frederico
+                Guilherme Giese e mostrando aos estudantes novas maneiras de
+                aprender. Por meio de computadores, pesquisas, ferramentas
+                digitais e atividades interativas, os alunos podem desenvolver
+                criatividade, responsabilidade e conhecimento tecnológico.
             </p>
 
-            <p class="autor">Por Maria Eduarda David</p>
+            <p class="texto">
+                A disciplina também ajuda os estudantes a compreender como
+                utilizar a internet de forma segura, consciente e responsável.
+                Durante as atividades, os alunos são incentivados a pesquisar
+                informações, criar conteúdos e utilizar a tecnologia como uma
+                ferramenta para ampliar seus conhecimentos.
+            </p>
+
+            <p class="texto">
+                Dessa forma, a educação digital contribui para preparar os
+                alunos para os desafios de um mundo cada vez mais conectado,
+                mostrando que a tecnologia pode ser uma importante aliada
+                dentro e fora da escola.
+            </p>
+
+            <p class="autor">
+                Por Maria Eduarda David
+            </p>
 
         </article>
 
+        <footer>
+            Colégio Frederico Guilherme Giese • Educação Digital • 2026
+        </footer>
+
     </main>
 
-    <script src="script.js"></script>
 </body>
 </html>
+```
