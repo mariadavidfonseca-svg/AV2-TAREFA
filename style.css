@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff0f8;
+    color: #4a1240;
+}
+
+.pagina {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+header {
+    background: linear-gradient(135deg, #ff4fa3, #d90082);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 18px 18px 0 0;
+}
+
+.colegio {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.disciplina {
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.noticia {
+    background: white;
+    padding: 35px;
+    border-radius: 0 0 18px 18px;
+    box-shadow: 0 5px 20px #d98abb55;
+}
+
+.data {
+    color: #c00078;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #b00070;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #6d3b62;
+    font-size: 19px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.imagem-noticia {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 14px;
+    border: 5px solid #ffb5dd;
+    margin-bottom: 25px;
+}
+
+.texto {
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.autor {
+    margin-top: 25px;
+    color: #d00082;
+    font-weight: bold;
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .colegio {
+        font-size: 19px;
+    }
+
+    .noticia {
+        padding: 22px;
+    }
+
+    .imagem-noticia {
+        height: 220px;
+    }
+}
